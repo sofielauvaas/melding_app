@@ -1,19 +1,21 @@
-# 💬 MeldingApp – Sanntids Meldinger med Expo & Supabase
+# 💬 MeldingApp & 🛒 Handleliste – Expo & Supabase
 
-Dette er en moderne meldings-app bygget som et teknisk case. Appen lar brukere sende meldinger som lagres i en Supabase-database og hentes ut i sanntid.
+Dette prosjektet er et teknisk case som demonstrerer sanntidskommunikasjon og dynamisk datahåndtering ved bruk av moderne webteknologier. 
+
+## 📱 Funksjonalitet
+- **Sanntids Meldinger:** Send og motta meldinger umiddelbart via Supabase.
+- **Smart Handleliste:** - Søk i produktkatalog (f.eks. "appelsin", "agurk").
+  - Legg til varer med emoji og kategori.
+  - Juster antall (+/-) og marker varer som fullført.
+  - Mulighet for å tømme hele listen.
 
 ## 🚀 Teknologier
 - **Frontend:** React Native med Expo Router
 - **Backend:** Supabase (PostgreSQL)
-- **Språk:** TypeScript
+- **Sikkerhet:** Miljøvariabler (.env) for beskyttelse av API-nøkler.
 
 ## 🛠 Slik kjører du prosjektet lokalt
-1. Klone repoet: `git clone https://github.com/sofielauvaas/melding_app.git`
-2. Installer avhengigheter: `npm install`
-3. Opprett en `supabase.ts` i rotmappen med dine egne API-nøkler.
-4. Start utviklingsserveren: `npx expo start`
-
-## 📱 Funksjonalitet
-- [x] Sende meldinger til skyen
-- [x] Hente meldinger automatisk ved oppstart
-- [x] Responsivt design for både iOS og Android
+1. **Klone repoet:**
+   ```bash
+   git clone [https://github.com/sofielauvaas/melding_app.git](https://github.com/sofielauvaas/melding_app.git)
+   cd melding_app
